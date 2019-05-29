@@ -1,16 +1,15 @@
+
 public class TestDemo02 {
 
+	/**
+	 * @param args
+	 */
 	public static void main(String[] args) {
-		Demo02 aa = new Demo02();
-		aa.type="ÄþÏçºÚÖí";
-		aa.color="ºÚÉ«";
-		aa.atk=77;
-		aa.walk();
-		aa.hit();
-		aa.eat();
-		System.out.println(aa.toString());
-		System.out.println(aa.tp());
-		System.out.println(aa.cl());
+		// TODO Auto-generated method stub
+			Demo02 aa = new Demo02();
+			aa.type="½ð¿¨";
+			aa.jf=1500;
+			System.out.println(aa);
+			aa.hk();
 	}
-
 }

@@ -1,22 +1,43 @@
+//Calculator
+import java.util.Scanner;
+
 public class Demo04 {
-	String name;
-	double java;
-	double sql;
-	double c;
-	public void study(){
-		System.out.println("学生正在学习");
+	int num1;
+	int num2;
+
+	public int add() {
+		Scanner in = new Scanner(System.in);
+		System.out.print("请输入第一个数：");
+		num1 = in.nextInt();
+		System.out.print("请输入第二个数：");
+		num2 = in.nextInt();
+		return num1 + num2;
 	}
-	public String xm(){
-		return name;
+
+	public int minus() {
+		Scanner in = new Scanner(System.in);
+		System.out.print("请输入第一个数：");
+		num1 = in.nextInt();
+		System.out.print("请输入第二个数：");
+		num2 = in.nextInt();
+		return num1 - num2;
 	}
-	public double jv(){
-		return java;
+
+	public int multiple() {
+		Scanner in = new Scanner(System.in);
+		System.out.print("请输入第一个数：");
+		num1 = in.nextInt();
+		System.out.print("请输入第二个数：");
+		num2 = in.nextInt();
+		return num1 * num2;
 	}
-	public double sum(){
-		return java+sql+c;
+
+	public double divide() {
+		Scanner in = new Scanner(System.in);
+		System.out.print("请输入第一个数：");
+		num1 = in.nextInt();
+		System.out.print("请输入第二个数：");
+		num2 = in.nextInt();
+		return num1 * 1.0 / num2;
 	}
-	public double avg(){
-		return (java+sql+c)/3.0;
-	}
-	
 }
