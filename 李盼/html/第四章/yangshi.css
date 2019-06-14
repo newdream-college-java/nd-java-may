@@ -1,0 +1,53 @@
+<!--开心餐厅-->
+.box1{color:#00ff00;}
+
+
+<!--申请表-->
+h1{
+	font-size:18px;
+}
+.text{
+	font-size:12px;
+}
+.number{
+	color:red;
+	font-weight:500;
+}
+.year{
+	font-style:italic;
+	font-size:16px;
+	color:blue;
+}
+
+
+<!--总裁致辞-->
+
+h2{
+	font-size:24px;
+}
+.zhushi{
+	font-size:12px;
+	color:blue;
+}
+.text1{
+	font-size:14px;
+}
+#id1{
+	font-size:16px;
+	font-weight:700;
+}
+.red1{
+	color:red;
+}
+
+
+<!--职位详情表-->
+
+h2{
+	font-weight:700;
+	font-size:18px;
+}
+h5{
+	color:blue;
+	font-size:13px;
+}
