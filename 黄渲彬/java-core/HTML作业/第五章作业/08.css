@@ -1,0 +1,94 @@
+.d0{
+		width:310px;
+		height:800px;
+		
+	}
+
+.d1 h2{
+		font-size:18px;
+		font-weight:bold;
+		line-height:40px;
+		background:url("../../img/05/dress01.png") 0px 0px no-repeat;
+		text-indent:43px;
+
+	}
+.d1 a{
+		text-decoration:none;
+		color:black;
+		line-height:10px;
+	}
+.d1 a:hover{
+		color:#f60;
+	}
+
+
+.d2 h2{
+		font-size:18px;
+		font-weight:bold;
+		line-height:40px;
+		background:url("../../img/05/dress02.png") 0px 0px no-repeat;
+		text-indent:43px;
+
+	}
+.d2 a{
+		text-decoration:none;
+		color:black;
+		line-height:10px;
+	}
+.d2 a:hover{
+		color:#f60;
+	}
+
+
+.d3 h2{
+		font-size:18px;
+		font-weight:bold;
+		line-height:40px;
+		background:url("../../img/05/dress03.png") 0px 0px no-repeat;
+		text-indent:43px;
+
+	}
+.d3 a{
+		text-decoration:none;
+		color:black;
+		line-height:10px;
+	}
+.d3 a:hover{
+		color:#f60;
+	}
+
+.d4 h2{
+		font-size:18px;
+		font-weight:bold;
+		line-height:40px;
+		background:url("../../img/05/dress04.png") 0px 0px no-repeat;
+		text-indent:43px;
+
+	}
+.d4 a{
+		text-decoration:none;
+		color:black;
+		line-height:10px;
+	}
+.d4 a:hover{
+		color:#f60;
+	}
+
+
+
+.d5 h2{
+		font-size:18px;
+		font-weight:bold;
+		line-height:40px;
+		background:url("../../img/05/dress05.png") 0px 0px no-repeat;
+		text-indent:43px;
+
+	}
+.d5 a{
+		text-decoration:none;
+		color:black;
+		line-height:10px;
+	}
+.d5 a:hover{
+		color:#f60;
+	}

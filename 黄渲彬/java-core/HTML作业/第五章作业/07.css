@@ -1,0 +1,34 @@
+h2{
+		font-size:18px;
+		color:blue;
+	}
+
+h2 span{
+		font-size:10px;
+		color:	#DCDCDC;
+	}
+
+p{
+		text-indent:2em;
+		line-height:22px;
+		font-size:12px;
+	}
+.q1{	font-size:18px;
+		color:red;
+		font-weight:bold;
+	}
+.q2{	font-style:italic;
+		color:blue;
+		font-size:16px;
+	}
+.q3{
+		font-size:16px;
+		color:blue;
+		font-style:italic;
+
+	}
+.q4{
+		text-decoration:underline;
+		cursor:pointer;
+		color:green;
+		}
