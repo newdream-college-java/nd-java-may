@@ -1,0 +1,19 @@
+.box{
+		width:250px;
+		height:600px;
+	}
+.box ul{
+		padding:0px;
+	}
+.box ul li{
+		list-style:none;				
+	}
+
+.box ul li a{
+		width:209px;
+		height:97px;
+		display:block;
+	}
+.box ul li a:hover{
+		border:red solid 1px;
+	}

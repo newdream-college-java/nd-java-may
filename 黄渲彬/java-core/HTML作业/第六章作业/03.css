@@ -1,0 +1,37 @@
+.box{
+		width:280px;
+		height:400px;
+		
+	}
+.box h1{
+		font-size:18px;
+		padding:2px 0px 0px 8px;
+		background-color:#DC143C;
+		color:white;
+		line-height:33px;
+
+	}
+.box ul{
+		padding:0px;
+	}
+.box ul li{
+		list-style:none;
+		line-height:40px;
+		text-indent:10px;
+		border-bottom:#e4e4e4 1px dashed;
+		background:url("../../img/06/dot_01.gif") 10px 8px no-repeat;
+	}
+.box ul li a{
+		text-decoration:none;
+		line-height:36px;
+		display:inline-block;
+	}
+.box ul li a:hover{
+		color:#DC143C;		
+		background:url("../../img/06/dot_02.gif") 0px 6px no-repeat;
+	}
+
+.box ul li a span{
+		color:white;
+		font-weight:bold;
+	}

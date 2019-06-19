@@ -1,0 +1,206 @@
+.box{
+		width:204px;
+		height:300px;
+	}
+
+.box h2{
+		background-color:#000000;
+		color:white;
+		line-height:40px;
+		text-indent:10px;
+	}
+
+
+
+.box1 dl{
+		border-bottom:dashed 1px;
+	}
+
+.box1 dl dt{
+		font-weight:bold;
+		font-size:16px;
+		line-height:30px;
+		background:url("../../img/06/icon_01.gif") 0px -3px no-repeat;
+		text-indent:30px;
+	} 
+
+.box1 dl dd{
+		margin-left:20px;
+		line-height:18px;		
+	}
+.box1 dl dd a{
+		text-decoration:none;		
+	}
+
+
+
+.box2 dl{
+		border-bottom:dashed 1px;
+	}
+
+.box2 dl dt{
+		font-weight:bold;
+		font-size:16px;
+		line-height:30px;
+		background:url("../../img/06/icon_02.gif") 0px -3px no-repeat;
+		text-indent:30px;
+	} 
+
+.box2 dl dd{
+		margin-left:20px;
+		line-height:18px;		
+	}
+.box2 dl dd a{
+		text-decoration:none;		
+	}
+
+
+
+.box3 dl{
+		border-bottom:dashed 1px;
+	}
+
+.box3 dl dt{
+		font-weight:bold;
+		font-size:16px;
+		line-height:30px;
+		background:url("../../img/06/icon_03.gif") 0px -3px no-repeat;
+		text-indent:30px;
+	} 
+
+.box3 dl dd{
+		margin-left:20px;
+		line-height:18px;		
+	}
+.box3 dl dd a{
+		text-decoration:none;		
+	}
+
+
+
+.box4 dl{
+		border-bottom:dashed 1px;
+	}
+
+.box4 dl dt{
+		font-weight:bold;
+		font-size:16px;
+		line-height:30px;
+		background:url("../../img/06/icon_04.gif") 0px -3px no-repeat;
+		text-indent:30px;
+	} 
+
+.box4 dl dd{
+		margin-left:20px;
+		line-height:18px;		
+	}
+.box4 dl dd a{
+		text-decoration:none;		
+	}
+
+
+
+.box5 dl{
+		border-bottom:dashed 1px;
+	}
+
+.box5 dl dt{
+		font-weight:bold;
+		font-size:16px;
+		line-height:30px;
+		background:url("../../img/06/icon_05.gif") 0px -3px no-repeat;
+		text-indent:30px;
+
+	} 
+
+.box5 dl dd{
+		margin-left:20px;
+		line-height:18px;		
+	}
+.box5 dl dd a{
+		text-decoration:none;		
+	}
+
+
+
+.box6 dl{
+		border-bottom:dashed 1px;
+	}
+
+.box6 dl dt{
+		font-weight:bold;
+		font-size:16px;
+		line-height:30px;
+		background:url("../../img/06/icon_06.gif") 0px -3px no-repeat;
+		text-indent:30px;
+	} 
+
+.box6 dl dd{
+		margin-left:20px;
+		line-height:18px;		
+	}
+.box6 dl dd a{
+		text-decoration:none;		
+	}
+
+
+
+.box7 dl{
+		border-bottom:dashed 1px;
+	}
+
+.box7 dl dt{
+		font-weight:bold;
+		font-size:16px;
+		line-height:30px;
+		background:url("../../img/06/icon_07.gif") 0px -3px no-repeat;
+		text-indent:30px;
+	} 
+
+.box7 dl dd{
+		margin-left:20px;
+		line-height:18px;		
+	}
+.box7 dl dd a{
+		text-decoration:none;		
+	}
+
+
+
+.box8 dl{
+		border-bottom:dashed 1px;
+	}
+
+.box8 dl dt{
+		font-weight:bold;
+		font-size:16px;
+		line-height:30px;
+		background:url("../../img/06/icon_08.gif") 0px -3px no-repeat;
+		text-indent:30px;
+	} 
+
+.box8 dl dd{
+		margin-left:20px;
+		line-height:18px;		
+	}
+.box8 dl dd a{
+		text-decoration:none;		
+	}
+
+
+
+.box9 dl dt{
+		font-weight:bold;
+		font-size:16px;
+		line-height:30px;
+		background:url("../../img/06/icon_09.gif") 0px -3px no-repeat;
+		text-indent:30px;
+	} 
+
+.box9 dl dd{
+		margin-left:20px;
+		line-height:18px;		
+	}
+.box9 dl dd a{
+		text-decoration:none;		
+	}

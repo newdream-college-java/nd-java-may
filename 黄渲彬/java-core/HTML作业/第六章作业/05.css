@@ -1,0 +1,31 @@
+.box{
+		width:200px;
+		height:500px;
+		background:url("../../img/06/trendTopBg.gif") no-repeat;
+	}
+
+.box h1{
+		font-size:18px;
+		color:white;
+		background:url("../../img/06/bg.gif") 9px 12px no-repeat;
+		line-height:20px;
+		padding-top:17px;
+		padding-left:46px;
+	}
+.box ul{
+		padding-left:0px;
+	}
+.box ul li{
+		list-style:none;
+		line-height:30px;
+		background:url("../../img/06/dotBg.gif") 5px -4px no-repeat;	
+			
+		text-indent:25px;
+	}
+.box ul li a{
+		text-decoration:none;
+		font-size:15px;
+	}
+.box ul li a:hover{
+		color:red;
+	}
