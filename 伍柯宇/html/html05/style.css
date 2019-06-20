@@ -1,0 +1,79 @@
+/*课后01*/
+.color1{
+	color:green;
+}
+.wky{
+	color:#FFF;
+}
+.color2{
+	color:#F63;
+}
+/*----------------------------------------------------------------*/
+/*课后02*/
+.giao{
+	font-size:20px;
+	font-style:italic;
+	color:blue;
+	
+}
+.end{
+	color:#6F3;
+	text-decoration:underline;
+	cursor:pointer;	
+}
+.sss{
+	color:#A9A9A9;
+	font-weight:lighter;
+	font-size: 10px;
+	line-height:70px;
+}
+/*----------------------------------------------------------------*/
+/*课后05*/
+.ddd{
+	font-weight:bolder;
+}
+.img{
+	width:500px;
+	height:200px;
+	background-image:url("bg.jpg");
+	background-position:30px 55px;
+	background-repeat:no-repeat;
+
+}
+/*----------------------------------------------------------------*/
+/*上机04*/
+.bt{
+	width: 500px;
+    	height: 38px;
+	font-size:18px;
+	color:white;
+	font-weight:bold;
+	line-height:35px;
+	background-color:rgb(46,169,223);
+	text-indent:1em;
+}
+.twobt{
+	width: 500px;
+    	height: 38px;
+	font-size:14px;
+	font-weight:bold;
+	line-height:30px;
+	background-color:rgb(165,222,228);
+	text-indent:20px;
+}
+.nr{
+	font-size:12px;
+	line-height:20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
