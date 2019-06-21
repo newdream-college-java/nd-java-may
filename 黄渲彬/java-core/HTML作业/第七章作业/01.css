@@ -1,0 +1,50 @@
+.d1{
+		width:889px;
+		border:solid 0px;
+		margin:0px auto;
+		background-color:#ebebeb;
+		
+
+	}
+.d2{
+		border:solid 0px;
+		width:172px;
+		height:82px;
+		
+		
+	}
+.d3{
+		border:solid 0px;
+		height:82px;
+		width:387px;
+		float:right;
+		background-color:red;
+		
+		
+	}
+.d4{
+		width:889px;
+		height:40px;
+		background-color:black;
+		margin-top:-12px;
+	}
+
+.d4 ul{		
+		padding-left:40px;
+		padding-top:14px;
+	}
+.d4 ul li{
+		list-style:none;
+		float:left;
+		text-indent: 50px;
+		background:url("../../img/07/forumMenuBg.gif") 25px -10px no-repeat;
+	}
+a{
+		text-decoration:none;
+		color:white;
+		text-indent:51px;		
+		
+	}
+li a:hover{
+		background:url("../../img/07/forumMenuBg.jpg") -2px -10px no-repeat;
+	}

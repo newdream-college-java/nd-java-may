@@ -1,0 +1,53 @@
+	.box{	
+		float:right;
+		width:295px;
+		height:390px;
+		background-color:#ebebeb;
+		
+		}
+	h1{
+		font-size:14px;
+		font-weight:bold;
+		background:url("../../img/07/icon-03.jpg");
+		color:#FFF;
+		width:350px;
+		height:30px;
+		margin:0px 0px 0px 0px;
+		text-indent:17px;
+		line-height:29px;		
+		}
+	h2{
+		font-size:12px;
+		}
+	.box1{
+		margin: 10px 0px 0px 10px;
+		float:left;
+		}
+	ul{
+		padding-left:10px;}
+	li{
+		list-style:none;
+		line-height:22px;		
+		}
+	.box2{
+		margin:10px 10px 0px 0px;
+		float:right;
+		}
+	.s1{
+		background:url(../../img/07/icon-01.jpg) 0px 4px no-repeat;	
+		text-indent:20px;	
+		}
+	.s2{
+		background:url(../../img/07/icon-02.jpg) 0px 4px no-repeat;
+		text-indent:20px;
+		}
+	a{
+		border:#FFF solid 2px;
+		display:block;
+		text-decoration:none;
+		}
+	a:hover{		
+		border:#F90 solid 2px;
+		font-weight:bold;
+		}
+	
