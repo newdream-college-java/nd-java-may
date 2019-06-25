@@ -1,0 +1,50 @@
+			#one{
+				width:300px;
+			}
+			.i1{
+				width:251px;
+			}	
+			.q1{
+				float:left;
+border:#FFF 2px solid;
+			}
+			.q2{
+				float:right;
+border: red 2px solid;
+			}
+			body{
+				 bgcolor="#ebebeb";
+			}
+			.k1{
+				width:700px;
+			}
+			.m1 .g1{
+				list-style:none;
+				float:left;
+			}
+			.m1{
+				padding:0px;
+				margin:0px;
+				clear:both;
+			}
+			.g1{
+				text-indent:13px;
+				width:117px;
+				background: black url(Í¼Æ¬ËØ²Ä/forumMenuBg.gif)116px 0px no-repeat;
+			}
+			a{
+
+				color:white;
+				text-decoration:none;
+			}
+			.r1{
+				clear:both;
+			}
+			a:hover li{
+
+				font-weight:bold;
+				background: black url(Í¼Æ¬ËØ²Ä/forumMenuBg.jpg) 0px 0px no-repeat;
+			}
+			.kuang01{
+				width:100%;
+			}

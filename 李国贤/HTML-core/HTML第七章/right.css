@@ -1,0 +1,61 @@
+		<style type="text/css">
+			body{
+				background-color:#ebebeb;
+			}
+			ul #one{
+				list-style:none;
+			}
+			.b1{
+				padding:0px;
+				border:2px white solid;
+			}
+			#one{
+				margin-left:15px;
+				margin-top:15px;
+				width:150px;
+			}
+			div{
+				width:375px;
+			}
+			.w1{
+				float:left;
+				display:inline-block;
+				width:166px;
+			}
+			font{
+				width:141px;
+				display:inline-block;
+				text-indent:12px;
+			}
+			.r1{
+				width:165px;
+				display:inline-block;
+				text-indent:35px;
+				background:url(Í¼Æ¬ËØ²Ä/icon-01.jpg) 15px 4px no-repeat;
+			}
+			.t1{
+				width:165px;
+				display:inline-block;
+				text-indent:35px;
+				background:url(Í¼Æ¬ËØ²Ä/icon-02.jpg) 15px 4px no-repeat;				
+			}
+			h2{
+				font-weight:bold;
+				font-size:14px;
+				text-indent:51px;
+				background-color:#3c4a92;
+				color:white;
+			}
+			.y1{
+				margin-top:0px;
+			}
+			h2{
+				margin-bottom:0px;
+			}
+			a:hover img{
+				border:2px orange solid;
+			}
+			.sts1{
+				float:right;
+				border:red 2px solid;
+			}
