@@ -1,0 +1,47 @@
+/*¿Îºó01*/
+.box1{
+	margin:auto;
+	width: 200px;
+	height: 500px;
+	background-repeat:no-repeat;
+	background-image:url("image/trendTopBg.gif");
+	
+}
+.img{
+	background-image:url("image/bg.gif");
+	background-repeat:no-repeat;
+	color:rgb(255,255,251);
+	width: 170px;
+	height: 50px;
+	background-position:20px 6px;
+	text-indent:60px;
+	line-height:40px;
+	font-weight:bold;	
+}
+li{
+	background-image:url("image/dotBg.gif");
+	background-repeat:no-repeat;
+	background-position: -9px -9px;
+	text-indent:6px;
+	font-size:15px;
+}
+ul{
+	list-style-type:none;
+	padding-left:10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
