@@ -1,0 +1,13 @@
+.nav{
+	width:426px;
+	height:130px;
+	margin:0px auto;
+	}
+	.nav ul li{
+		list-style:none;
+		float:left;
+		margin-right:10px;
+		position:relative;
+		left:215px;
+		bottom:45px;
+		}
