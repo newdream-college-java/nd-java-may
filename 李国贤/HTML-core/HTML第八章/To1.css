@@ -1,0 +1,54 @@
+﻿/* CSS Document */
+
+.cctv{
+	width:726px;
+	height:549px;
+	overflow:hidden;	
+	background:url(图片素材/adver-00.jpg) center 5px no-repeat;
+	position:relative;
+	}
+	.cctv .cctv2{
+		width:628px;
+		margin:0px auto;
+		padding-top:80px;
+		height:200px;
+		overflow:hidden;		
+		}
+		.cctv .cctv2 dt{
+			float:left;
+			width:285px;
+			}
+			.cctv p{
+				font-size:12px;
+				line-height:22px;
+				text-indent:2em;
+				font-family:"微软雅黑";
+				} 
+				span{
+					color:red;
+					font-weight:bold;
+					}
+					.cctv .cctv2 dd img{
+						margin-top:10px;
+						display:inline;
+						}
+.stu1 dl, .stu2 dl{
+	height:125px;
+	overflow:hidden;
+	border:1px #dldldl solid;
+	background-color:#FFF;
+	padding:5px;
+	}
+	.cctv .stu1{
+		padding:0px 0px 0px 50px;
+		width:500px;
+		}
+		.cctv .stu2{
+			position:absolute;
+			right:30px;
+			bottom:0px;
+			width:440px;
+			} 
+			.cctv .stu1 dt, .cctv .stu2 dt{
+				float:left;
+				width:203px;}
