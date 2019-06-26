@@ -1,0 +1,46 @@
+/* CSS Document */
+
+.nav{
+	width:700px;
+	height:26px;	
+	text-indent:10px;
+	background:url(../../img/08/top_bg.gif);
+	}
+	.nav_cript{
+		width:600px;
+		height:26px;
+		float:right;
+		}
+	.nav_cript ul{
+		margin:0px;
+		padding-left:100px;
+		}
+		.nav_cript ul li{
+			list-style:none;
+			float:left;
+			line-height:30px;
+			}
+			.nav_cript ul li a{
+				text-decoration:none;
+				display: block;
+    			width: 80px;
+   				height: 26px;
+				color:#999;
+				}
+				.nav_cript ul li:last-child{
+					background:url(../../img/08/open_icon.gif) 69px 12px no-repeat;
+					}
+					span{
+						padding-left: 16px;
+						}
+		
+		.Dropdown{
+					
+			 }
+			 .p{
+				
+				 }
+			 .Dropdown .p a{
+						 
+				 }	
+			
