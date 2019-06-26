@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0px;padding:0px;}
+/*div{background: green;border: 1px red solid;}*/
+.clearbox{clear: both;} /* 清除浮动盒子*/
+
+
+/* topbar样式设置栏 */
+div .topbar{margin:0px auto; ;width:900px;margin-top: -5px;}/*设置topbar居中显示*/
+div .topbar-left{float: left;}
+div .topbar-right{float: right;}
+.topbar-right ul{padding: 0px;list-style-type: none;margin-top: 56px;margin-right:-25px;font-size: 15px;}
+.topbar-right ul li{float: left;margin-right: 40px;}
+.topbar-right ul li a:link{color: black;text-decoration:none;}
+.topbar-right ul li a:visited{color:blue;text-decoration: underline;}
+
+
+/* mainbox样式设置栏 */
+/*main-top样式*/
+div .main-top-bg{background: url("../image/banner_bg.gif")0px 0px;
+			width:100%;height: 230px;padding: 3px;margin-top:5px;}
+div .main-top{margin:0px auto;margin-top:3px;background: url("../image/banner/banner1.jpg")0px 0px no-repeat;background-size: 900px 220px;
+			width: 900px;height: 220px;border: 2px white solid;}
+/* 采用绝对定位四个文本，更换为ul列表 */
+/*.main-top span.sp1{position: absolute;left:263px;top:313px;}
+.main-top span.sp2{position: absolute;left:435px;top:313px;}
+.main-top span.sp3{position: absolute;left:615px;top:313px;}
+.main-top span.sp4{position: absolute;left:790px;top:313px;}
+.main-top span.sp5{position: absolute;left:958px;top:313px;}*/
+.main-top ul{list-style-type: none;margin-top: 193px;}
+.main-top ul li{float:left;color:white;width:175px;/*border: 1px red solid;*/text-align: center;line-height:28px;}
+.main-top ul li.ICT{background:blue;}
+.main-top ul li.fourli{text-indent: 5px;}
+.main-top ul li.lastli{text-indent: 1em;}
+/*main-bottom样式*/
+div .main-bottom-bg{width:100%;height: 250px;padding: 3px;margin-top:5px;/* border: 1px red solid; */}
+div .main-bottom{margin:0px auto; ;width:905px;/* border: 1px green solid; */}
+/*main-bottom模块一样式*/
+div .main-bottom-1{width:175px;margin-top: 20px;float: left;}
+/*main-bottom模块二样式*/
+div .main-bottom-2{width:340px;float: left;/* border: 1px green solid; */font-size: 15px;}
+div .main-bottom-2 .bgimg1{background: url("../image/arrow.gif")0px 4px no-repeat;text-indent: 1em;}
+div .main-bottom-2 a{text-decoration: none;}
+/*main-bottom模块三样式*/
+div .main-bottom-3{width:195px;float: left;/* border: 1px red solid; */}
+div .main-bottom-3 ul{list-style-type: none;line-height: 30px;}
+div .main-bottom-3 ul li{border-bottom: 1px black dashed;width:163px;text-indent:1em;background: url("../image/gt.gif")0px 10px no-repeat;}
+div .main-bottom-3 ul li a{text-decoration:none;}
+/*main-bottom模块四样式*/
+div .main-bottom-4{width:175px;float: left;font-size: 15px;}
+div .main-bottom-4 .philosophy{margin-top: 1em;margin-bottom: 2em;}
+div .main-bottom-4 .corevalues{margin-top: 1em;margin-bottom: 2em;}
+
+
+/*Foot样式设置栏*/
+div .foot-bg{width:100%;margin-top:5px;/* border: 1px red solid; */margin-left:-12px;}
+div .foot{margin:0px auto; ;width:900px;/* border: 1px green solid; */border-top: 1px black solid;margin-top: 15px;padding-top: 15px;}
+/*Foot-left样式设置栏*/
+div .foot-left{float: left;padding-top: 5px;}
+div .foot-left .add{font-size:15px;}
+div .foot-left .add a{text-decoration: none;}
+/*Foot-right样式设置栏*/
+div .foot-right{float: right;font-size:15px;padding-top: 5px;}
+div .foot-right ul{list-style-type: none;margin-left: 56px;}
+div .foot-right ul li{float: left;margin-left: 10px;padding-right:7px;border-right:1px blue solid;}
+div .foot-right ul li.call{border-right:1px white solid;}
+div .foot-right ul li a{text-decoration: none;}
+div .foot-right .bq{margin-left: 52px;}
