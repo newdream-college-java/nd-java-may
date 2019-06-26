@@ -1,0 +1,144 @@
+@charset "utf-8";
+/* CSS Document */
+.d1{
+		width:889px;
+		height:800px;
+		border:solid 0px;
+		margin:0px auto;
+		background-color:#ebebeb;
+		
+
+	}
+.d2{
+		border:solid 0px;
+		width:172px;
+		height:82px;
+		
+		
+	}
+.d3{
+		border:solid 0px;
+		height:82px;
+		width:387px;
+		float:right;
+		background-color:red;
+		
+		
+	}
+.d4{
+		width:889px;
+		height:40px;
+		background-color:black;
+		margin-top:-12px;
+	}
+
+.d4 ul{		
+		
+	}
+.d4 ul li{
+		float:left;
+		list-style:none;
+		background:url("../../img/07/forumMenuBg.gif") 0px 6px no-repeat;
+		
+	}
+.d4 ul li a{
+		text-decoration:none;
+		line-height:40px;
+		display:block;
+		width:90px;
+		height:40px;
+		text-align:center;
+		color:white;
+	}
+.d4 ul li a:hover{
+		background:url("../../img/07/forumMenuBg.jpg") 0px 3px no-repeat;
+	}
+
+/*精彩视频video*/
+.video{
+	width:295px;
+	height:390px;	
+	float:right;
+	margin-top:30px;
+	}
+	.video h1{
+		background:url(../../img/07/icon-03.jpg) 0px 0px;
+		margin:0px 0px;
+		font-size:16px;
+		line-height:31px;
+		color:white;
+		text-indent:20px;}
+		
+	.box1{
+		margin: 10px 0px 0px 10px;
+		float:left;
+		}
+	.box1 h2{
+		font-size:14px;}
+	.box1 ul{
+		padding-left:10px;}
+	.box1 ul li{
+		list-style:none;
+		line-height:22px;		
+		}
+		.s1{
+		background:url(../../img/07/icon-01.jpg) 0px 1px no-repeat;	
+		text-indent:20px;	
+		}
+		.s2{
+		background:url(../../img/07/icon-02.jpg) 0px 1px no-repeat;
+		text-indent:20px;
+		}
+	.box2{
+		margin:10px 10px 0px 0px;
+		float:right;
+		}
+	.box2 h2{
+		font-size:14px;}
+	.box2 ul{
+		padding-left:10px;}
+	.box2 ul li{
+		list-style:none;
+		line-height:22px
+		}
+		
+	.box1 a{
+		border:#FFF solid 2px;
+		display:block;
+		text-decoration:none;
+		}
+	.box1 a:hover{		
+		border:#F90 solid 2px;
+		font-weight:bold;
+		}
+	.box2 a{
+		border:#FFF solid 2px;
+		display:block;		
+		text-decoration:none;
+		}
+	.box2 a:hover{		
+		border:#F90 solid 2px;
+		font-weight:bold;
+		}
+		
+		
+		
+	/*视频播放界面flash*/
+	.flash{
+		width:520px;
+		height:280px;
+		margin:20px 0px 0px 20px;		
+		background-color:#000;
+		padding:20px 20px 20px 20px;		
+		}
+		.flash h1{
+			font-size:12px;			
+			margin-top:20px;
+			}
+			.flash ul{
+				padding-left:10px;}
+			.flash ul li{
+				list-style:none;
+				float:left;
+				text-indent:25px;
+				}
