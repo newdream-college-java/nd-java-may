@@ -1,0 +1,23 @@
+.box{
+		width:313px;
+		height:353px;
+		background:url("../../img/06/bg.jpg")		
+	}
+
+ul{
+		padding-top:85px;
+	}
+li{
+		list-style:none;
+		margin-bottom:20px;
+		color:white;
+	}
+span{
+		color:red;
+	}
+.sex{
+		text-indent:19px;
+	}
+.bt{
+		text-indent:40px;
+	}
