@@ -1,0 +1,20 @@
+/*首页图片滚动效果*/
+.nav{
+	width:730px;
+	height:279px;
+	border-top:2px #000 solid;	
+	margin:0px auto;	
+	}
+	.nav img{
+		margin:5px 0px 0px 10px;
+		}
+	.nav ul li{
+		float:left;
+		list-style:none;
+		position:relative;
+		left:570px;
+		bottom: 50px;		
+		}
+		.nav ul li a{
+			text-decoration:none;
+			}
