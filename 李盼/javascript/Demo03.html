@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Test03</title>
+<script type="text/javascript">
+	var m = prompt("请输入打印的行数：","");
+	var n=2*(m-1);
+	var x=1;
+	for(var i = 1;i<=2*m-1;i++){
+		for(var k = 1;k<=n;k++){
+			document.write("&nbsp;");	
+		}
+		for(var j = 1;j<=x;j++){
+			document.write("*&nbsp;&nbsp;&nbsp;");
+		}
+		if(i<m){
+			n-=2;
+			x++;	
+		}else{
+			n+=2;
+			x--;	
+		}
+		document.write("<br/>");
+	}
+</script>
+</head>
+
+<body>
+</body>
+</html>
