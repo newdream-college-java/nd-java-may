@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript">
+		function show(){
+		var a="上午好";
+			var date=new Date();
+			var time = date.getFullYear()+"年"+(date.getMonth()+1)+"月"+date.getDate()+"日<br/>现在时间："+date.getHours()+"点";
+			var h=date.getHours();
+			var minutes = date.getMinutes();
+			var month=date.getMonth();
+			if(h>12){
+				h=h-12;
+				a="下午好";
+			}else if (h>12) {
+				a="下午好";
+			}
+			
+			if(minutes<10){
+				time=time+"0"+minutes+"分";
+			}else{
+				time=time+minutes+"分";
+			}
+			time =a+"!欢迎来到图灵商城<br/>今天日期："+time;
+			var h3Obj = document.getElementById("t");
+			h3Obj.innerHTML=time;
+		}
+		setInterval("show()",1000);
+	</script>
+</head>
+<body>
+	<h3 id="t"></h3>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>时间</title>
+	<script type="text/javascript">
+		function show(){
+			var a="AM";
+			var date=new Date();
+			var time = date.getFullYear()+"年"+(date.getMonth()+1)+"月"+date.getDate()+"日\t"+date.getHours()+":";
+			var h=date.getHours();
+			var minutes = date.getMinutes();
+			var month=date.getMonth();
+			if(h>12){
+				h=h-12;
+				a="PM";
+			}else if (h>12) {
+				a="PM";
+			}
+			
+			if(minutes<10){
+				time=time+"0"+minutes+":";
+			}else{
+				time=time+minutes+":";
+			}
+			var day=date.getDay();
+			if(day==1){
+				day="星期一";
+			}else if(day==2){
+				day="星期二";
+			}else if(day==3){
+				day="星期三";
+			}else if(day==4){
+				day="星期四";
+			}else if(day==5){
+				day="星期五";
+			}else if(day==6){
+				day="星期六";
+			}else{
+				day="星期日";
+			}
+			time =time+date.getSeconds()+a+"\t"+day;
+			var h3Obj = document.getElementById("t");
+			h3Obj.innerHTML=time;
+		}
+		setInterval("show()",1000);
+	</script>
+</head>
+<body onload="show()">
+	<h2>你好，欢迎访问新梦想商城！</h2>
+	<h3 id="t"></h3>
+</body>
+</html>

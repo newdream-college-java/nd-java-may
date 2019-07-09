@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>编写一个带两个变量和一个运算符号的四则运算函数需求说明</title>
+	<script type="text/javascript">
+		var a=prompt("请输入第一个数字：");
+		var b=prompt("请输入第二个数字：");
+		var c=prompt("请输入运算符号：");
+		var d;
+		function number(a,b,c){
+			if (c=="+") {
+				d=parseInt(a)+parseInt(b);
+			}else if (c=="-") {
+				d=a-b;
+			}else if (c=="/") {
+				d=a/b;
+			}else if (c=="*") {
+				d=a*b;
+			}
+			alert("计算结果为："+d);
+		}
+		number(a,b,c);
+	</script>
+</head>
+<body>
+
+</body>
+</html>
