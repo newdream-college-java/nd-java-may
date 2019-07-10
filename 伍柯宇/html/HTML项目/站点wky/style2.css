@@ -1,0 +1,157 @@
+/* CSS Document */
+/*清除浏览器默认样式开始*/
+html,body,div,span{
+	margin:0px;
+	padding:0px;
+	}
+/*清除浏览器默认样式结束*/
+
+/*bigbox样式开始*/
+.bigbox{
+	width:930px;
+	margin:auto;
+	}
+/*bigbox样式结束*/
+
+/*body样式开始*/
+body{
+	background-color:rgb(207,204,201);
+	}
+/*body样式结束*/
+
+/*head样式开始*/
+.head{
+	width: 903px;
+    height: 170px;
+	border: 1px black solid;
+	background-color:white;
+	}
+/*head样式结束*/
+
+/*nav样式开始*/
+.nav ul{
+	list-style-type: none;
+    margin-left: -40px;
+    line-height: 32px;
+	}
+
+.nav li{
+	width: 100px;
+    float: left;
+    text-indent: -4px;
+    height: 42px;
+    margin-top: -2px;
+    margin-left: 0px;
+    padding-left: 45px;
+    background: url(image/li_line.gif) 44px 1px no-repeat;
+	}
+.nav{
+	margin-top:-16px;
+	width:905px;
+	height:40px;
+	background:url("image/nav.gif") 0px -2px;
+	}
+.nav ul li a:hover{
+	background:url("image/nav_1.gif") 0px 0px;	
+	}
+.nav ul li a:link{
+	text-decoration:none;
+	color:#fff;
+	}
+.nav ul li a:visited{
+	text-decoration:none;
+	color:#fff;
+	}
+.nav ul li a{
+	display: block;
+    width: 145px;
+    height: 37px;
+    text-align: center;
+	}
+/*nav样式结束*/
+
+/*主页图片样式开始*/
+.mainimg{
+	width: 903px;
+    height: 300px;
+	background-color:white;
+	}
+/*主页图片样式结束*/
+
+/*mainbody样式开始*/
+.mainbody{
+	width: 891px;
+    height: 450px;
+    background-color: rgb(207,204,201);
+    color: #000;
+    font-weight: bold;
+    border: 6px white solid;
+	}
+.box1{
+	width: 600px;
+    height: 143px;
+    background: url(image/left_class_bg.gif) 8px 0px no-repeat;
+    text-indent: 25px;
+    line-height: 0px;
+    overflow: hidden;
+    float: left;
+	background-color:white;
+	}
+.box1 ul li{
+	float:left;
+	list-style-type:none;
+	
+	}
+.box2{
+	width: 600px;
+    height: 435px;
+    background: url(image/left_class_bg.gif) 0px 0px no-repeat;
+    text-indent: 25px;
+    line-height: 0px;
+    float: left;
+    background-color: white;
+    margin-left: 10px;
+	}
+.box2 img{
+    margin-left: 13px;
+    margin-top: 15px;
+	}
+.box2 p{
+	float: right;
+    width: 370px;
+    font-size: 13px;
+    line-height: 17px;
+    text-indent: 27px;
+	}
+.box2 h{
+	line-height:5px;}
+.box3{
+	background: url(image/right_class_bg.gif) 0px 0px no-repeat;
+    float: right;
+    width: 240px;
+    height: 250px;
+    text-indent: 30px;
+    line-height: 0px;
+    background-color: white;
+    margin-right: 10px;
+    padding-left: 10px;
+	}
+.box3 span{
+	line-height:25px;
+	font-size: 14px;
+	}
+/*mainbody样式结束*/
+
+/*foot样式开始*/
+.foot{
+	width:903px;
+	height:115px;
+	background-color:white;
+	}
+.foot p{
+	text-align:center;
+	line-height: 25px;
+    padding-top: 30px;
+	}
+/*foot样式结束*/	
+
