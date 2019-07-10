@@ -1,0 +1,414 @@
+html,body,div,span{/*清除浏览器默认样式*/
+	margin:0px;
+	padding:0px;
+}
+.mainimage{/*网页头部背景图样式*/
+	background:url(%E9%A1%B9%E7%9B%AE%E5%9B%9B_%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99_%E7%B4%A0%E6%9D%90/image/vi.jpg);	
+	clear:both;
+	margin:0px;
+	height:47px;
+	padding:20px;
+	font-size:14px;
+	font-weight:bold;
+}
+.topbar{/*网页顶部收藏本页样式*/
+	background-color:black;
+	color:white;
+	margin:0px;
+	height:23px;
+	font-size:12px;
+}
+.topbar-word{/*收藏本页字体样式*/
+	float:right;
+	line-height:23px;
+}
+.mainimage-word01{/*头部背景图第一行字体样式*/
+	padding-left:63px;
+	float:left;
+}
+.mainimage-word02{/*头部背景图第二行字体样式*/
+	padding-left:101px;
+	float:left;
+	clear:both;
+	padding-top:2px;;
+}
+.main{/*整体网页统一样式*/
+	width:779px;
+	margin:0px auto;
+	background:#f3f4ef;
+}
+.topbar-a{/*网页导航栏样式*/
+	background:url(%E9%A1%B9%E7%9B%AE%E5%9B%9B_%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99_%E7%B4%A0%E6%9D%90/image/hover_bg.jpg) 0px 0px repeat-x;
+	height:30px;	
+	padding:0px;
+}
+.topbar-a ul li{/*导航栏样式*/
+	color:black;
+	float:left;
+	font-weight:bold;
+	font-size:15px;
+	list-style:none;
+	width:75px;
+	padding-top:0px;
+	margin-top:0px;
+	text-align:center;
+	line-height:30px;
+	letter-spacing:10px;
+}
+.topbar-a ul{/*导航栏样式*/
+	padding-left:0px;
+	margin:0px;	
+	padding:0px;
+}
+.topbar-a a:hover li{
+	border:1px #333 dashed;
+}
+.topbar-a ul:first-child{/*导航栏第一个 首页 样式*/
+	margin-left:58px;
+}
+.foot{/*网页底部版权样式*/
+	font-size:7px;
+	color:white;
+	background:black;
+	height:70px;
+	text-align:center;
+	line-height:70px;
+	clear:both;
+}
+.indexmiddle{/*首页中间样式*/
+	background:white;
+	height:438px;
+	margin:0px;
+}
+.mainmiddle{/*登录页中部统一样式*/
+	margin-top:10px;
+}
+.middle-left{/*用户登录注册*/
+	float:left;
+	width:20%;
+	margin-left:10px;
+	margin-bottom:10px;
+}
+.signinimage01{/*用户登录*/
+	background:url(%E9%A1%B9%E7%9B%AE%E5%9B%9B_%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99_%E7%B4%A0%E6%9D%90/image/hover_bg.jpg) repeat-x;;
+	line-height:30px;
+	font-size:15px;
+	font-weight:bold;
+	text-indent:10px;
+	letter-spacing:10px;
+	margin-bottom:2px;
+	
+}
+.middle-left .signin{/*用户登录*/
+	border:1px #e4e4e4 solid;
+	padding-bottom:5px;
+}
+.middle-left .signin-word{/*用户名样式*/
+	font-size:10px;
+	line-height:28px;
+}
+.middle-left .signin-input{/*用户名输入框样式*/
+	border:1px black solid;
+	height:15px;
+}
+.middle-left form{/*登录表单样式*/
+	width:90%;
+	margin:0px auto;
+}
+.middle-left .signin .tijiao{/*登录按钮样式*/
+	width:100%;
+	font-size:10px;
+	letter-spacing:5px;
+	border:1px black solid;
+	background:url(%E9%A1%B9%E7%9B%AE%E5%9B%9B_%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99_%E7%B4%A0%E6%9D%90/image/nav_bg.jpg);
+}
+.middle-left .signin .zhuce{/*注册按钮样式*/
+	width:100%;
+	font-size:10px;
+	letter-spacing:5px;
+	margin-top:2px;
+	border:1px black solid;
+	background:url(%E9%A1%B9%E7%9B%AE%E5%9B%9B_%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99_%E7%B4%A0%E6%9D%90/image/nav_bg.jpg);
+}
+.middle-left .message{/*最新留言总体样式*/
+	margin:0px auto;
+	border:1px #e4e4e4 solid;
+	margin-top:10px;	
+}
+.middle-left .message .signinimage02{/*最新留言样式*/
+	background:url(%E9%A1%B9%E7%9B%AE%E5%9B%9B_%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99_%E7%B4%A0%E6%9D%90/image/hover_bg.jpg) repeat-x;;
+	line-height:30px;
+	font-size:15px;
+	font-weight:bold;
+	text-indent:10px;
+	letter-spacing:10px;
+}
+.middle-left .message .message-word00{/*最新留言*/
+	width:90%;
+	margin:0px auto;
+	padding-top:10px;
+	padding-bottom:20px;
+}
+.middle-left .message .message-word{/*最新留言下边框*/
+	border-bottom:1px #999 dashed;
+	font-size:10px;
+	line-height:15px;
+	padding-bottom:5px;
+}
+.middle-left .message .message-word span{/*最新留言菱形*/
+	font-size:29px;
+	position:relative;
+	top:5px;
+}
+.middleright{/*中部右边总体*/
+	float:right;
+	width:76%;
+	border:1px #e4e4e4 solid;
+	margin-right:10px;
+}
+.middleright01{/*中部右边第一个框*/
+	padding-left:10px;
+	padding-right:20px;
+	padding-bottom:55px;
+	border-bottom:1px #e4e4e4 solid;
+}
+.middleright-word01{/*最新日志第一句*/
+	font-size:13px;
+	font-weight:bold;
+}
+.middleright-word03{/*最新日志第三句*/
+	font-size:13px;
+	text-indent:32px;
+}
+.middleright-word02{/*最新日志第二句*/
+	font-size:14px;
+	color:#CCC;
+	border-bottom:1px #ccc dashed;
+}
+.middleright-border{/*最新日志边框*/
+	width:90%;
+	margin:0px auto;
+}
+.middleright02{/*中部右边下面*/
+	padding-left:10px;
+	padding-right:20px;
+	padding-top:15px;
+	padding-bottom:32px;
+	border-top:1px #e4e4e4 solid;
+	border-bottom:1px #e4e4e4 solid;
+}
+.main .middlebottom{/*中部下方最新相片*/
+	clear:both;
+	border:1px #999 solid;
+	margin:10px;
+} 
+.main .middlebottom .image{/*最新相片*/
+	width:100px;
+	height:100px;
+	margin-left:20px;
+	margin-right:20px;
+}
+.main .middlebottom .imageborder{/*最新相片边框*/
+	margin-left:25px;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+.main .middlebottom .imagename{/*最新相片名字*/
+	margin-left:37px;
+	margin-right:50px;
+	font-size:14px;
+	font-weight:bold;
+}
+.regmiddle{/*注册页面总体框*/
+	border:1px #666 solid;
+	margin:10px;
+	overflow:hidden;
+	background-color:#fffdf8;
+}
+.regmiddle-left{/*注册页面左边*/
+	float:left;
+	width:25%;
+	background:url(%E9%A1%B9%E7%9B%AE%E5%9B%9B_%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99_%E7%B4%A0%E6%9D%90/image/help.jpg);
+}
+.regmiddle-left ul{/*注册页面提示样式*/
+	padding-left:52px;
+	padding-top:60px;
+	padding-right:5px;
+	padding-bottom:60px;
+	border-right:3px #333333 double;
+}
+.regmiddle-left li .word01{/*注册页面字体*/
+	font-size:12px;
+	font-weight:bold;
+}
+.regmiddle-left ul li{
+	font-size:12px;
+	border-bottom:1px #666 dashed;
+}
+.regmiddle-right table{/*注册页面右边表单*/
+	padding:20px;
+	font-size:12px;
+	
+}
+.regmiddle-right table input{/*输入框样式*/
+	border:1px #999 solid;
+	height:16px;
+	margin:1px;
+}
+.regmiddle-right table .check{/*检查用户名*/
+	height:20px;
+	width:112px;
+	background:url(%E9%A1%B9%E7%9B%AE%E5%9B%9B_%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99_%E7%B4%A0%E6%9D%90/image/nav_bg.jpg);
+}
+.regmiddle-right table .personbook{/*下面三个输入框*/
+	width:340px;
+}
+.regmiddle-xing{/*输入框旁边的星*/
+	color:red;
+}
+.regmiddle-input-word{/*textarea框样式*/
+	vertical-align:top;
+}
+.regmiddle-right table .regmiddle-form-button{/*底下两个按钮样式*/
+	background:url(%E9%A1%B9%E7%9B%AE%E5%9B%9B_%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99_%E7%B4%A0%E6%9D%90/image/nav_bg.jpg);
+	width:100px;
+	height:20px;
+}
+.regmiddle-twobutton{/*两个按钮一起的样式*/
+	padding-left:120px;
+	padding-top:10px;
+}
+.articlemiddle{/*日志页样式*/
+	border:1px #666 solid;
+	margin:10px;
+	overflow:hidden;
+}
+.articlemiddle-word01{/*日志页第一行样式*/
+	padding-left:20px;
+	padding-right:20px;
+	height:70px;
+	padding-bottom:10px;
+	padding-top:10px;
+	border:1px #CCC solid;
+	
+}
+.articlemiddle-word01 a{/*日志页文字超链接*/
+	color:black;
+}
+.articleright-word01-word02{/*日志页文字2*/
+	font-size:12px;
+	color:#CCC;
+}
+.articleright-word01-word03{/*日志页文字3*/
+	background:#fbfbfb;
+	border:1px #333 solid;
+	font-size:12px;
+	font-weight:500;
+	text-indent:10px;
+	padding-top:3px;
+	padding-bottom:3px;
+}
+.nextletter{/*下一页样式*/
+	height:70px;
+	color:#666;
+	display:inline-block;
+	font-size:12px;
+}
+.photomiddle{/*相册页*/
+	border:1px #666 solid;
+	margin:10px;
+	overflow:hidden;
+}
+.photomiddle-image ul li{/*相册页列表样式*/
+	list-style:none;
+	float:left;
+	width:218px;
+	height:150px;
+}
+.photomiddle-image{/*相册页图片*/
+	padding-left:30px;
+	padding-right:20px;
+	margin-bottom:20px;
+	padding-bottom:20px;
+	overflow:hidden;
+}
+.photomiddle-image ul li img{/*图片大小*/
+	width:100px;
+	height:100px;
+	margin-bottom:20px;
+}
+.photomiddle-image ul li span{/*图片名称*/
+	text-decoration:underline;
+	text-indent:26px;
+	display:inline-block;
+	width:100px;
+	font-size:12px;
+	line-height:55px;
+	font-weight:bold;
+}
+.personalDataMiddle{/*个人档案页*/
+	border:1px #666 solid;
+	margin:10px;
+	overflow:hidden;
+	padding-bottom:40px;
+}
+.personalDataMiddle ul li{/*个人档案列表*/
+	float:left;
+	width:250px;
+	font-size:14px;
+	font-weight:bold;
+	margin-left:57px;
+}
+.personalDataMiddle .person-word{/*边框样式*/
+	border-bottom:1px #33CCFF dashed;
+}
+.personalDataMiddle .personmenu{/*个人档案*/
+	font-size:12px;
+	font-weight:400;
+	border-top:2px black dotted;
+	border-bottom:2px black dotted;
+	padding-right:10px;
+}
+.personalDataMiddle-head{/*标题定位*/
+	line-height:90px;
+	position: relative;
+	left:111px;
+}
+.personalDataMiddle .person-news{/*个人说明单独样式*/
+	height:55px;
+	padding-top:20px;
+	padding-bottom:10px;
+}
+.person-border{/*边框*/
+	border:1px #333 dashed;	
+}
+.msgmiddle{/*最新留言页面*/
+	border:1px #666 solid;
+	margin:10px;
+	overflow:hidden;
+	padding-bottom:20px;
+}
+.msgmiddle .wordborder01{/*最新留言边框1*/
+	padding:20px;
+}
+.msgmiddle .word01{/*最新留言文字1*/
+	font-size:12px;
+	line-height:20px;
+}
+.msgmiddle .wordborder02{/*最新留言边框2*/
+	border:1px #333 solid;
+	height:300px;
+}
+.msgmiddle .word02{/*最新留言文字2*/
+	font-size:12px;
+	padding-bottom:14px;
+}
+.msgmiddle-textarea{/*留言框*/
+	overflow:scroll;
+	overflow-x:hidden;
+}
+.msgmiddle-button{/*确认提交按钮*/
+	background:url(%E9%A1%B9%E7%9B%AE%E5%9B%9B_%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99_%E7%B4%A0%E6%9D%90/image/nav_bg.jpg);
+	line-height:19px;
+	width:140px;
+}
