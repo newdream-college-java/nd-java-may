@@ -1,0 +1,109 @@
+		.header{/*头*/
+			margin-top: 0px;
+			    width: 778px;
+			text-align:right;
+			font-size: 10px;
+			background-color: black;
+				color: white;
+		}
+		.main{
+			margin-top: -10px;
+			    width: 778px; 
+			background: url(image/vi.jpg) no-repeat;
+		}
+		h3{
+			text-indent: 150px;
+			font-size: 12px;
+			margin-top:0px;
+			line-height: 24px;
+		}
+		h2{
+			margin:0px 0px;
+			text-indent: 120px;
+			font-size: 12px;
+			line-height:24px;
+		}
+		.nav{/*?????*/
+			background: url(image/hover_bg.jpg) 112px 0px no-repeat;
+			margin-top: -12px;
+		}
+
+		.nav a{
+			letter-spacing:10px;
+			font-size: 13px;
+			text-align: center;
+			color: black;
+			display: block;
+			width: 113px;
+			height: 23px;
+			float: left;
+			text-decoration: none;
+			background: url(image/h4_bg.jpg) 112px 0px no-repeat;
+		}
+		.content{/*内容框架大小*/
+			margin-bottom: 0px;
+			clear: both;
+			width: 778px;
+			height: 700px;
+			border: 1px #c0c0c0 solid;
+		}
+		.footer{
+			
+			line-height: 39px;
+			color: white;
+			height: 40px;
+			font-size: 12px;
+			text-align: center;
+			background-color: black;
+			width: 778px;			
+		}
+		h4{
+				margin: 0px 0px;
+			}
+		.nav a:hover{
+			 
+			background: url(image/hover_bg.jpg) 0px 0px repeat;
+		}
+		#wrap{/*整个框架*/
+			border: 2px #c0c0c0 solid;
+			width: 778px;
+		}
+		.dakj{/*大框架*/
+			height: 500px;
+			border: 1px #c0c0c0 solid;
+			margin: 10px;
+		}
+		.dakj h2{/*大框架的标题*/
+			text-indent: 16px;
+			font-size: 16px;
+			background: url(image/nav_bg.jpg) 0px -7px repeat-x;
+			letter-spacing:15px;
+		}
+		.dakj a{/*框架里的超链接*/
+			margin-top: 6px;
+			color: black;
+			display: inline-block;
+			text-indent: 36px;
+			width: 770px;
+		}
+		.dakj span{/*框架里的时间*/
+			margin-bottom: 0px;
+			color: #c0c0c0;
+			display: inline-block;
+			width: 770px;
+			text-indent: 36px;
+		}
+		.dakj p{/*框架里的内容*/
+			border: 1px #c0c0c0 solid;
+			background: url(image/nav_bg.jpg);
+			text-indent: 56px;
+			margin-top: 0px;
+		}
+		.dakj div{/*小框架的边框*/
+			border-bottom: 1px #c0c0c0 solid;
+		}
+		.dakj  .k1{/*下一页*/
+			margin-left: -36px;
+			font-size: 12px;
+			float: left;
+		}

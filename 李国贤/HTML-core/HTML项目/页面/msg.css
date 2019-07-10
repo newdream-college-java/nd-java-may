@@ -1,0 +1,119 @@
+		.header{/*头*/
+			margin-top: 0px;
+			    width: 778px;
+			text-align:right;
+			font-size: 10px;
+			background-color: black;
+				color: white;
+		}
+		.main{
+			margin-top: -10px;
+			    width: 778px; 
+			background: url(image/vi.jpg) no-repeat;
+		}
+		h3{
+			text-indent: 150px;
+			font-size: 12px;
+			margin-top:0px;
+			line-height: 24px;
+		}
+		h2{
+			margin:0px 0px;
+			text-indent: 120px;
+			font-size: 12px;
+			line-height:24px;
+		}
+		.nav{/*导航条*/
+			background: url(image/hover_bg.jpg) 112px 0px no-repeat;
+			margin-top: -12px;
+		}
+
+		a{
+			letter-spacing:10px;
+			font-size: 13px;
+			text-align: center;
+			color: black;
+			display: block;
+			width: 113px;
+			height: 23px;
+			float: left;
+			text-decoration: none;
+			background: url(image/h4_bg.jpg) 112px 0px no-repeat;
+		}
+		.content{/*内容框大小*/
+			margin-bottom: 0px;
+			clear: both;
+			width: 778px;
+			height: 450px;
+			border: 1px #c0c0c0 solid;
+		}
+		.footer{/*底*/
+			
+			line-height: 39px;
+			color: white;
+			height: 40px;
+			font-size: 12px;
+			text-align: center;
+			background-color: black;
+			width: 778px;			
+		}
+		h4{
+				margin: 0px 0px;
+			}
+		a:hover{
+			 
+			background: url(image/hover_bg.jpg) 0px 0px repeat;
+		}
+		#wrap{/*整个框架边框*/
+			border: 2px #c0c0c0 solid;
+			width: 778px;
+		}
+		.kj1{/*大框架*/
+			margin: 8px;
+			height: 400px;
+			border: 1px #c0c0c0 solid;
+		}
+		.kj1 h3{/*大框架主标题*/
+			font-weight: bold;
+			letter-spacing:10px;
+			background: url(image/nav_bg.jpg) 0px -10px repeat-x;
+			text-indent: 20px;
+		}
+		.kj1 span{/*框架内的小标题*/
+			margin-bottom: 0px;
+			font-size: 14px;
+			display: inline-block;
+			width: 100px;
+			font-weight: bold;
+			text-indent: 30px;
+		}
+		.kj1 .xkj1{/*小框架*/
+			
+			height: 150px;
+			border: 1px #c0c0c0 solid;
+			margin: 0px 12px;
+		}
+		.kj1 font{/*字体*/
+			
+			line-height:27px;
+			font-size: 12px;
+			letter-spacing:1px;
+		}
+		.kj1 .xkj2{/*小框架*/
+
+			margin-left: 12px;
+		}
+		.kj1 input{/*提交按钮*/
+			margin-left: 12px;
+			display: inline-block;
+			text-indent: 30px;
+			width: 150px;
+			letter-spacing:10px;
+			border: 1px black solid;
+			background: url(image/nav_bg.jpg);
+		}
+		.kj1 textarea{/*留言框架*/
+
+			overflow:scroll; 
+			overflow-x:hidden;
+		}

@@ -1,0 +1,70 @@
+		.header{/*头*/
+			margin-top: 0px;
+			    width: 778px;
+			text-align:right;
+			font-size: 10px;
+			background-color: black;
+				color: white;
+		}
+		.main{
+			margin-top: -10px;
+			    width: 778px; 
+			background: url(image/vi.jpg) no-repeat;
+		}
+		h3{
+			text-indent: 150px;
+			font-size: 12px;
+			margin-top:0px;
+			line-height: 24px;
+		}
+		h2{
+			margin:0px 0px;
+			text-indent: 120px;
+			font-size: 12px;
+			line-height:24px;
+		}
+		.nav{/*导航条*/
+			background: url(image/hover_bg.jpg) 112px 0px no-repeat;
+			margin-top: -12px;
+		}
+
+		a{
+			letter-spacing:10px;
+			font-size: 13px;
+			text-align: center;
+			color: black;
+			display: block;
+			width: 113px;
+			height: 23px;
+			float: left;
+			text-decoration: none;
+			background: url(image/h4_bg.jpg) 112px 0px no-repeat;
+		}
+		.content{/*内容框大小*/
+			margin-bottom: 0px;
+			clear: both;
+			width: 778px;
+			height: 450px;
+			border: 1px #c0c0c0 solid;
+		}
+		.footer{/*底*/
+			
+			line-height: 39px;
+			color: white;
+			height: 40px;
+			font-size: 12px;
+			text-align: center;
+			background-color: black;
+			width: 778px;			
+		}
+		h4{
+				margin: 0px 0px;
+			}
+		a:hover{
+			 
+			background: url(image/hover_bg.jpg) 0px 0px repeat;
+		}
+		#wrap{/*整个框架边框*/
+			border: 2px #c0c0c0 solid;
+			width: 778px;
+		}

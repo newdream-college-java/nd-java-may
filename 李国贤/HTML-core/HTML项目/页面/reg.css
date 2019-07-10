@@ -1,0 +1,124 @@
+		.header{/*头*/
+			margin-top: 0px;
+			    width: 778px;
+			text-align:right;
+			font-size: 10px;
+			background-color: black;
+				color: white;
+		}
+		.main{
+			margin-top: -10px;
+			    width: 778px; 
+			background: url(image/vi.jpg) no-repeat;
+		}
+		h3{
+			text-indent: 150px;
+			font-size: 12px;
+			margin-top:0px;
+			line-height: 24px;
+		}
+		h2{
+			margin:0px 0px;
+			text-indent: 120px;
+			font-size: 12px;
+			line-height:24px;
+		}
+		.nav{/*导航条*/
+			background: url(image/hover_bg.jpg) 112px 0px no-repeat;
+			margin-top: -12px;
+		}
+
+		a{
+			letter-spacing:10px;
+			font-size: 13px;
+			text-align: center;
+			color: black;
+			display: block;
+			width: 113px;
+			height: 23px;
+			float: left;
+			text-decoration: none;
+			background: url(image/h4_bg.jpg) 112px 0px no-repeat;
+		}
+		.content{/*内容框大小*/
+			margin-bottom: 0px;
+			clear: both;
+			width: 778px;
+			height: 700px;
+			border: 1px #c0c0c0 solid;
+		}
+		.footer{/*底*/
+			
+			line-height: 39px;
+			color: white;
+			height: 40px;
+			font-size: 12px;
+			text-align: center;
+			background-color: black;
+			width: 778px;			
+		}
+		h4{
+				margin: 0px 0px;
+			}
+		a:hover{
+			 
+			background: url(image/hover_bg.jpg) 0px 0px repeat;
+		}
+		#wrap{/*整个框架边框*/
+			border: 2px #c0c0c0 solid;
+			width: 778px;
+		}
+		.content h3{
+			font-size: 14px;
+			line-height: 45px;
+			text-indent: 29px;
+			letter-spacing:21px;
+			background: url(image/nav_bg.jpg) 0px 20px repeat-x;
+		}
+		.kj1{/*第一个框架*/
+			margin-right: 6px;
+			border-right: 3px #333333 solid;
+			background: url(image/help.jpg) no-repeat;
+			float: left;
+			width: 200px;
+		}
+		.kj1 ul{/*外边距*/
+			margin-top: 70px;
+		}
+		.kj1 li{/*字体大小*/
+			border-bottom: 1px #c0c0c0 dashed;
+			font-size: 14px;
+		}
+		.kj1 span{/*字体加粗*/
+			font-weight: bold;
+		}
+		.kj2 font{/*符号颜色*/
+			color: red;
+		}
+		.kj2 .k2{/*把字体移动到这一列顶部*/
+			vertical-align:top;
+		}
+		.kj2 td{/*外边距*/
+			margin-left: 10px;
+		}
+		.yhm{/*字体宽度*/
+			letter-spacing:5px;
+		}
+		.mm{/*字体宽度*/
+			letter-spacing:15px;
+		}
+		.xb{/*字体宽度*/
+			letter-spacing:15px;
+		}
+		.kj2 .j2{/*单个列表宽度*/
+			width: 312px;
+		}
+		.kj2 .j1{/*按钮*/
+			background: url(image/nav_bg.jpg);
+			border: 1px black solid;
+		}
+		.kj2 .j3{/*按钮*/
+			border: 1px black solid;
+			background: url(image/nav_bg.jpg);
+			margin: 0px 4px;
+		}
